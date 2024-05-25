@@ -83,4 +83,65 @@ color: #FAF9F0;
     color: #FAF9F0;
 }
 
+.contact-page {
+    background-color: #000249;
+   
+    
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.portfolio-contact-form label,
+.portfolio-contact-form span,
+.portfolio-contact-form input
+ {
+    width: 600px;
+    display: inline-block;
+    
+}
+
+.portfolio-contact-form input,
+.portfolio-contact-form textarea {
+    background-color: transparent;
+    color: #FAF9F0;
+    border-radius: 10px;
+   
+}
+
+.portfolio-contact-form input::placeholder,
+.portfolio-contact-form textarea::placeholder{
+    color: #FAF9F0;
+    font-family: Fira Code;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 37.4px;
+    text-align: left;
+   
+
+}
+.portfolio-contact-form input[type="submit"] {
+   
+    
+    border-color: #1DCED8;
+    flex-direction: column;
+    align-items: flex-end;
+    width: auto;
+    border-radius: 4px;
+    padding: 15px;
+    gap: 10px;
+    font-family: Fira Code;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.74px;
+    text-align: left;
+    background-color: transparent;
+
+
+}
+.portfolio-contact-form input::placeholder :has[type="submit"]{
+    color: #1DCED8;
+
+}
