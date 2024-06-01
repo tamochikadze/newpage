@@ -45,6 +45,25 @@
 									?>
 								</div>							
 							</nav><!-- #site-navigation -->
+							<div class="hamburger-menu">
+								<input type="checkbox" id="menu">
+								<label for="menu">
+								<span class="hambureg-menu-icon">&#9776;</span>	
+								</label>
+								<div class="sidebar-nav">
+								<?php
+									wp_nav_menu(
+										array(
+											'theme_location' => 'menu-1',
+											'menu_id'        => 'primary-menu-mobile',
+											'menu_class'     => 'header_menu'
+										)
+									);
+									?>
+									
+								</div>
+								
+							</div>
 
 									</div>
 	
