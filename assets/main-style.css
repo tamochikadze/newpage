@@ -198,5 +198,38 @@ color: #FAF9F0;
 }
 
 @media screen and (max-width:767px){
-    
+    .content-title   {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .content-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .content {
+        width: 100%;
+        gap: 24px;
+    }
+    .contact {
+        padding: 122px 0 98px;
+        justify-content: flex-start;
+        gap: 20px;
+
+    }
+    .contact-page {
+        padding: 20px;
+        gap: 20px;
+        
+    }
+}
+
+.content {
+    gap: 14px;
+}
+
+.content-title {
+    font-size: 54px4;
+}
+.content-text {
+    font-size: 18px;
 }
